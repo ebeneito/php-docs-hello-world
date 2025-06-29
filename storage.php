@@ -4,6 +4,7 @@ require 'vendor/autoload.php';
 
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
+use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
